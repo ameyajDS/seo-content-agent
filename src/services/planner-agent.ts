@@ -15,6 +15,8 @@ Your responsibilities:
 - Generate 2-3 specific search queries if up-to-date information is needed
 - Provide clear, actionable handoff instructions to the Writer Agent
 
+IMPORTANT: Pay special attention to the specified TONE and ensure it is clearly reflected in your constraints and handoff instructions. The tone should significantly influence the writing style and approach.
+
 You must respond ONLY with a valid JSON object matching this exact structure:
 {
   "objective": "string",
@@ -31,7 +33,7 @@ You must respond ONLY with a valid JSON object matching this exact structure:
   "searchQueries": ["string"]
 }
 
-Ensure all fields are populated. Return ONLY the JSON, no markdown, no explanation.`;
+Ensure all fields are populated. The constraints MUST explicitly mention the tone requirements. Return ONLY the JSON, no markdown, no explanation.`;
 
 export async function runPlannerAgent(input: TaskInput): Promise<PlannerOutput> {
   const userMessage = `

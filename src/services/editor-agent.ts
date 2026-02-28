@@ -14,11 +14,19 @@ Your responsibilities:
 - Check for missing sections from the outline
 - Tighten the introduction and strengthen the conclusion
 - Add a TL;DR summary section at the end if not present
+- MAINTAIN AND ENHANCE the specified tone throughout the content
+
+CRITICAL: Ensure the final content strictly adheres to the specified tone:
+- PROFESSIONAL: Formal language, authoritative voice, industry terminology, structured presentation
+- CASUAL: Conversational style, contractions, personal pronouns, relaxed and approachable language
+- TECHNICAL: Precise terminology, detailed explanations, assumes expert-level knowledge
+- FRIENDLY: Warm, engaging language, inclusive tone, personable approach
 
 You must NOT:
 - Rewrite the entire content from scratch
 - Change the strategic direction or objective
 - Add major new topics not in the original plan
+- Alter the intended tone or writing style
 
 Output format (use EXACTLY these delimiters):
 ---REVISED_CONTENT_START---
