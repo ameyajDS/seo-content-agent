@@ -1,4 +1,4 @@
-# SEO Content Crew
+# SEO Content Agent
 
 A coordinated multi-agent AI system that plans, writes, and edits SEO-optimized content autonomously. Three specialized agents — Planner, Writer, and Editor — execute a structured pipeline with real-time streaming output.
 
@@ -62,7 +62,7 @@ src/
 │   ├── writer-agent.ts         — Writer system prompt + streaming draft
 │   └── editor-agent.ts         — Editor system prompt + output parser
 ├── app/
-│   ├── api/crew/route.ts       — Orchestrator: sequential SSE pipeline
+│   ├── api/agent/route.ts      — Orchestrator: sequential SSE pipeline
 │   └── page.tsx                — Main UI with live streaming state
 └── components/
     ├── TaskForm.tsx             — Task input, tone, word count, search toggle
@@ -163,9 +163,9 @@ This system takes the same underlying LLM and splits it into three **cognitively
 |---|---|
 | Quick Q&A or brainstorming | ChatGPT / Claude |
 | One-off summarization | ChatGPT / Claude |
-| Production content pipeline | Custom Crew |
-| Consistent branded output at scale | Custom Crew |
-| Auditable, repeatable results | Custom Crew |
+| Production content pipeline | Custom Agent |
+| Consistent branded output at scale | Custom Agent |
+| Auditable, repeatable results | Custom Agent |
 
 ---
 
